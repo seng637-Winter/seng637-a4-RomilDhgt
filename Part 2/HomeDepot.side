@@ -1,0 +1,1812 @@
+{
+  "id": "857cf06e-de88-4517-b478-c3c283cf7c29",
+  "version": "2.0",
+  "name": "HomeDepot",
+  "url": "https://www.homedepot.ca",
+  "tests": [{
+    "id": "fabbed07-dd33-4e49-9159-fec1bd8c3c56",
+    "name": "Cart_Total_One_Item",
+    "commands": [{
+      "id": "2a62104b-c269-4c86-9783-43154232c2aa",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8d73f02-f520-4207-8f41-ead80f60ec5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1503x1018",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0722ce85-05f8-4649-834d-cac589442842",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-GridColumn--small--none:nth-child(3) > .hdca-button-container .hdca-button2__label",
+      "targets": [
+        ["css=.aem-GridColumn--small--none:nth-child(3) > .hdca-button-container .hdca-button2__label", "css:finder"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Exterior Door')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b293518a-a3e0-4440-b3a0-ae37c844cbc4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,485)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "537c7e62-ffe1-462d-91d6-3669fddd9634",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39ef5f56-149e-465e-8793-00b339dbdc98",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,488)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d559a334-28cb-404c-b105-c55663e26fa8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "374b4ccf-df50-4994-9cc3-a080ad1583b6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6079bd4-a8dc-4fa4-8095-02803dd56d9d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-my--medium > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-my--medium > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "$359.10"
+    }]
+  }, {
+    "id": "9e40b51d-aaa9-40be-8d80-3501774ec9fa",
+    "name": "Add_to_Cart",
+    "commands": [{
+      "id": "250dc4ce-04f2-47ab-b7e2-9de39532e4ad",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ad7cbe6-10ec-4a9f-9a32-a197f4bbdc0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1503x1018",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc814a14-4e7c-4084-b0ae-09f48dc2036f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-GridColumn--default--none:nth-child(2) > .hdca-button-container .hdca-button2__label",
+      "targets": [
+        ["css=.aem-GridColumn--default--none:nth-child(2) > .hdca-button-container .hdca-button2__label", "css:finder"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Plywood')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e00379f-74f7-4152-ab87-09608a6ce545",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,404)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7dfc6bc-ba91-4a70-bdd9-51ef43189454",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97626602-8569-4811-b084-79aa2cf6b414",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ff36d93-c0ce-4ec2-939d-fd51a1e7a1d3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "051a1e68-9aa6-4b27-a212-d65f717ede7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-weight--regular:nth-child(1)",
+      "targets": [
+        ["css=.acl-weight--regular:nth-child(1)", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1 item(s)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cddf94a-7c61-4747-9499-af4b66632959",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-weight--regular:nth-child(1)",
+      "targets": [
+        ["css=.acl-weight--regular:nth-child(1)", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1 item(s)')]", "xpath:innerText"]
+      ],
+      "value": "1 item(s)"
+    }, {
+      "id": "de8f351f-26fd-4da4-b80e-6819cfeadd68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-color--title > .acl-text-size--small:nth-child(1)",
+      "targets": [
+        ["css=.acl-color--title > .acl-text-size--small:nth-child(1)", "css:finder"],
+        ["xpath=//product-description/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8ddfd0f-4b11-423b-8d87-17d9eb000949",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-color--title > .acl-text-size--small:nth-child(1)",
+      "targets": [
+        ["css=.acl-color--title > .acl-text-size--small:nth-child(1)", "css:finder"],
+        ["xpath=//product-description/div[2]/div", "xpath:position"]
+      ],
+      "value": "Model: 1125STSN48"
+    }]
+  }, {
+    "id": "f66b05c9-116b-4b80-9966-1fd21413e84c",
+    "name": "Cart_Total_Zero_Items",
+    "commands": [{
+      "id": "3776b4ac-40ba-4d48-9185-2457ce731c27",
+      "comment": "",
+      "command": "open",
+      "target": "/cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02c2ee4f-106a-4d2e-b73f-29a4b7606216",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5beb1c6e-4fde-4dc6-a6c9-3aa7f453adda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca0bf5d4-caed-4f3c-9ce9-541dcfb06679",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-GridColumn--default--none:nth-child(2) > .hdca-button-container .hdca-button2__label",
+      "targets": [
+        ["css=.aem-GridColumn--default--none:nth-child(2) > .hdca-button-container .hdca-button2__label", "css:finder"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Plywood')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89200e8c-4af6-4b65-9e20-20ed4e220df8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-bold-hover > .acl-display--hide",
+      "targets": [
+        ["css=.acl-bold-hover > .acl-display--hide", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c15c986d-40dc-453a-b5e2-3125fe988877",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-weight--regular:nth-child(1)",
+      "targets": [
+        ["css=.acl-weight--regular:nth-child(1)", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'0 item(s)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e576ce-2d78-4b37-982c-5043ce055548",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-weight--regular:nth-child(1)",
+      "targets": [
+        ["css=.acl-weight--regular:nth-child(1)", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'0 item(s)')]", "xpath:innerText"]
+      ],
+      "value": "0 item(s)"
+    }]
+  }, {
+    "id": "272f7daf-e3b8-49a3-a1f4-026a12ee5432",
+    "name": "Cart_Total_Multiple",
+    "commands": [{
+      "id": "2372ade0-46fe-4127-a7ff-b0f240f46532",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "909a2803-6aff-4954-b282-536f31db58ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39355919-32b1-49d2-a5c1-ebbe352408aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shed",
+      "targets": [
+        ["linkText=Shed", "linkText"],
+        ["css=.button:nth-child(6) .hdca-button2", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.homedepot.ca/en/home/categories/outdoors/sheds-and-outdoor-structures/sheds.html?searchterm=shed&intid=HP_S5_240314_ALL_Shed_EN_NA')]", "xpath:href"],
+        ["xpath=//div[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c528975-f7a0-45a6-b0cd-96d34c0d036a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "372aa60f-3a32-47e1-93a3-3cad04c993d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--size--medium:nth-child(1) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--size--medium:nth-child(1) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue Shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e68bc7fa-e01a-48d2-9784-dd0b9d43b2c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(2) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(2) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//article[2]/section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c873fc-91c8-4359-a7e1-f9cc5d2e4749",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a82ff87e-1bb0-4891-9256-64ea81baca7c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14bfaa69-46fd-4d28-b244-aa90bb52d866",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-container--main",
+      "targets": [
+        ["css=.acl-container--main", "css:finder"],
+        ["xpath=//hdca-cart-micro/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb80a4a6-60f6-4c35-9b18-887405748cbe",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-title > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": "$1,676.85"
+    }]
+  }, {
+    "id": "f6f9c5c5-f71d-450f-96db-e8f8ca3d83f2",
+    "name": "Cart_Total_Duplicate",
+    "commands": [{
+      "id": "d2b9cb8b-65c8-4107-a894-2a552065a711",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7ebd9a3-f0a5-4cae-a0fd-8a61909e4731",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1454x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42ffbe7f-ee83-4a89-9dbf-ff3ec6b35e3a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shed",
+      "targets": [
+        ["linkText=Shed", "linkText"],
+        ["css=.button:nth-child(6) .hdca-button2", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.homedepot.ca/en/home/categories/outdoors/sheds-and-outdoor-structures/sheds.html?searchterm=shed&intid=HP_S5_240314_ALL_Shed_EN_NA')]", "xpath:href"],
+        ["xpath=//div[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7dc2ff0-3678-4b2f-857a-8eef2b2cfd42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(3) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(3) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//article[3]/section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99b56cbe-b797-49ed-a915-a7646c07808b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a16864-54f3-407e-af79-73d4669974c5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "533d4228-6d03-4c1c-9b69-c9f31a0a31fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17cbde4b-6ecd-4e20-a8d3-192161b69c2e",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "cfc7b82f-8a93-468b-8e85-5db45da9612e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1490)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62482352-43e2-4d8f-b5ec-05181c349220",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-title > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a51a2540-6920-4bf9-94e5-3327c35bc20f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-container--main",
+      "targets": [
+        ["css=.acl-container--main", "css:finder"],
+        ["xpath=//hdca-cart-micro/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c44194f-a6dd-43db-863a-8814a55d6a4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-title > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32e511d6-b0df-45cd-a9a7-06cd26f3c552",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-title > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4fd454b-9ca0-4c91-9240-8c3be1e84470",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-title > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-title > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "$4,361.70"
+    }, {
+      "id": "31212009-b0be-4a13-94bc-b0bdfbf1997b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-align-items--baseline:nth-child(2)",
+      "targets": [
+        ["css=.acl-align-items--baseline:nth-child(2)", "css:finder"],
+        ["xpath=//cart-product-card/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bf5ae670-acf8-4150-97b6-0e56c1ba86e9",
+    "name": "Unavailable_Tool",
+    "commands": [{
+      "id": "9fbbf67a-482c-48be-ad9f-bf11d1810b05",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c8a6277-e338-49b5-b2fb-663362a0c475",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1515x1045",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65c8ade4-b7e0-47f4-b8d5-ad6c0e9a0dda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rental",
+      "targets": [
+        ["linkText=Rental", "linkText"],
+        ["css=.acl-list-item:nth-child(1) > .acl-text-size--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Rental')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/home/tool-and-vehicle-rental.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rental')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c248a1a4-d18f-4fb2-8d5c-28ef844861f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tool Rental",
+      "targets": [
+        ["linkText=Tool Rental", "linkText"],
+        ["css=.aem-GridColumn--medium--12 .hdca-button2", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/home/tool-and-vehicle-rental.html#tool_rental')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tool Rental')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ebd1187-a0b8-4e0f-84f9-475151353453",
+      "comment": "",
+      "command": "click",
+      "target": "css=.categorybanner:nth-child(34) .hdca-button2__label",
+      "targets": [
+        ["css=.categorybanner:nth-child(34) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[34]/article/a/div[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc60a0a2-fd3a-4d06-9f26-d8fc5a2957ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-product-box-container:nth-child(1) .hdca-button2",
+      "targets": [
+        ["css=.hdca-product-box-container:nth-child(1) .hdca-button2", "css:finder"],
+        ["xpath=//div[@id='tool-rental-grid']/section/div/div/article/section[2]/div[2]/div/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Check Pricing & Availability')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aafa197-140c-4c42-a3a5-fe0e0e9a3091",
+      "comment": "",
+      "command": "click",
+      "target": "id=tryAnotherLocationMsg",
+      "targets": [
+        ["id=tryAnotherLocationMsg", "id"],
+        ["css=#tryAnotherLocationMsg", "css:finder"],
+        ["xpath=//span[@id='tryAnotherLocationMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='loadVar']/div[2]/div/div/table/tbody/tr/td[3]/p[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Please try another location.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70839d77-aee4-49b4-9fd4-b32b7326cc60",
+      "comment": "",
+      "command": "click",
+      "target": "id=tryAnotherLocationMsg",
+      "targets": [
+        ["id=tryAnotherLocationMsg", "id"],
+        ["css=#tryAnotherLocationMsg", "css:finder"],
+        ["xpath=//span[@id='tryAnotherLocationMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='loadVar']/div[2]/div/div/table/tbody/tr/td[3]/p[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Please try another location.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d57c82-321f-48af-81d2-f50a20a7014d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=tryAnotherLocationMsg",
+      "targets": [
+        ["id=tryAnotherLocationMsg", "id"],
+        ["css=#tryAnotherLocationMsg", "css:finder"],
+        ["xpath=//span[@id='tryAnotherLocationMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='loadVar']/div[2]/div/div/table/tbody/tr/td[3]/p[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Please try another location.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b27efb8-3769-465d-8326-cc4a87cda5ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=tryAnotherLocationMsg",
+      "targets": [
+        ["id=tryAnotherLocationMsg", "id"],
+        ["css=#tryAnotherLocationMsg", "css:finder"],
+        ["xpath=//span[@id='tryAnotherLocationMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='loadVar']/div[2]/div/div/table/tbody/tr/td[3]/p[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Please try another location.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81137701-4c2a-482e-9535-05aa07e808f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.unavailable-message",
+      "targets": [
+        ["css=.unavailable-message", "css:finder"],
+        ["xpath=//div[@id='loadVar']/div[2]/div/div/table/tbody/tr/td[3]/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8705c5c-e26b-48b8-928e-89ec3422b812",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=tryAnotherLocationMsg",
+      "targets": [
+        ["id=tryAnotherLocationMsg", "id"],
+        ["css=#tryAnotherLocationMsg", "css:finder"],
+        ["xpath=//span[@id='tryAnotherLocationMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='loadVar']/div[2]/div/div/table/tbody/tr/td[3]/p[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Please try another location.')]", "xpath:innerText"]
+      ],
+      "value": "Please try another location."
+    }]
+  }, {
+    "id": "38bb0bb2-1eef-47e8-a66c-7b9e48c397d6",
+    "name": "Available_Tool",
+    "commands": [{
+      "id": "4176c3b3-9a4c-4a74-bd5c-219df758e687",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "735fa938-1175-45e2-9b1d-833d3ada30f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1515x1045",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d5c457f-8e3c-4789-ae6b-7a8d2cd53664",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rental",
+      "targets": [
+        ["linkText=Rental", "linkText"],
+        ["css=.acl-list-item:nth-child(1) > .acl-text-size--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Rental')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/home/tool-and-vehicle-rental.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rental')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7d4a4d5-3e40-4d90-bd8a-f736660f9d3f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tool Rental",
+      "targets": [
+        ["linkText=Tool Rental", "linkText"],
+        ["css=.aem-GridColumn--medium--12 .hdca-button2", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/home/tool-and-vehicle-rental.html#tool_rental')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tool Rental')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4ee04e6-8e39-4750-9a10-fae8a0fc938f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.categorybanner:nth-child(34) .hdca-button2__non-wrap-label",
+      "targets": [
+        ["css=.categorybanner:nth-child(34) .hdca-button2__non-wrap-label", "css:finder"],
+        ["xpath=//div[34]/article/a/div[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e2162c7-25a7-4d3b-9eca-cb95d91edabd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-product-box-container:nth-child(2) .hdca-button2",
+      "targets": [
+        ["css=.hdca-product-box-container:nth-child(2) .hdca-button2", "css:finder"],
+        ["xpath=//div[@id='tool-rental-grid']/section/div/div[2]/article/section[2]/div[2]/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[2]/article/section[2]/div[2]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6184bb82-f632-4bb8-b982-f6acba77b38c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.available-message",
+      "targets": [
+        ["css=.available-message", "css:finder"],
+        ["xpath=//div[@id='loadVar']/div[2]/div/div/table/tbody/tr/td[3]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "485a2eef-7b41-45ba-8d8b-d06073299bd6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.available-message",
+      "targets": [
+        ["css=.available-message", "css:finder"],
+        ["xpath=//div[@id='loadVar']/div[2]/div/div/table/tbody/tr/td[3]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "Available to Rent at CALGARY NORTHEAST (MARLBOROUGH) #7061\\nPlease call store or reserve online to confirm availability."
+    }]
+  }, {
+    "id": "aa987ddb-df42-4461-9e2a-e20f3e969a75",
+    "name": "Rental_Price",
+    "commands": [{
+      "id": "f457cd76-f030-4594-96a9-e0f0d8c99897",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5f4c366-d002-4175-bebf-e0fa97f01d9c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1515x1045",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2484f211-9bfa-4337-ad68-2dea0b28e67e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rental",
+      "targets": [
+        ["linkText=Rental", "linkText"],
+        ["css=.acl-list-item:nth-child(1) > .acl-text-size--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Rental')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/home/tool-and-vehicle-rental.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rental')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3e19dc-8fa8-49d0-a70a-0860c8fcc82a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-GridColumn--medium--12 .hdca-button2__label",
+      "targets": [
+        ["css=.aem-GridColumn--medium--12 .hdca-button2__label", "css:finder"],
+        ["xpath=//div/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tool Rental')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc05b7c0-6915-4335-9117-7b8d5582fb71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.categorybanner:nth-child(35) .hdca-button2__label",
+      "targets": [
+        ["css=.categorybanner:nth-child(35) .hdca-button2__label", "css:finder"],
+        ["xpath=//div[35]/article/a/div[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b41647ce-6c21-4fae-a51c-a3206f3682b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-product-box-container:nth-child(1) .hdca-button2",
+      "targets": [
+        ["css=.hdca-product-box-container:nth-child(1) .hdca-button2", "css:finder"],
+        ["xpath=//div[@id='tool-rental-grid']/section/div/div/article/section[2]/div[2]/div/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Check Pricing & Availability')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38ef1abe-d934-4fa3-9329-af207f6ab53c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-button",
+      "targets": [
+        ["css=.hdca-button", "css:finder"],
+        ["xpath=//a[@id='requestReserveButtonId']/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Request Reservation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04be2b4c-d8fb-4308-b300-fdfc106c979d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .acl-color--title",
+      "targets": [
+        ["css=tr:nth-child(4) > .acl-color--title", "css:finder"],
+        ["xpath=//tr[4]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'$540.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05bdd9c9-783b-4a40-9aaa-1ae5a18a80f5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(4) > .acl-color--title",
+      "targets": [
+        ["css=tr:nth-child(4) > .acl-color--title", "css:finder"],
+        ["xpath=//tr[4]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'$540.00')]", "xpath:innerText"]
+      ],
+      "value": "$540.00"
+    }]
+  }, {
+    "id": "79a17c9d-178c-4f0b-aac3-3d7bece82d98",
+    "name": "Discount_Price",
+    "commands": [{
+      "id": "a6422bb2-b65b-4151-a621-19dd5e510451",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8851dffd-b1d8-4724-8c2a-760f047cb37a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1515x1045",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12fde877-44ee-4be5-8657-7de67ec139a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='ValueCentreMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b4499cd-19ff-430c-a0b7-809a4ab420ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondarybanner:nth-child(10) .hdca-button2__non-wrap-label",
+      "targets": [
+        ["css=.secondarybanner:nth-child(10) .hdca-button2__non-wrap-label", "css:finder"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "770669c2-6804-4944-92f6-e6cf8f22da62",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,587)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "657f1546-66d5-491a-bdd1-d9e6a881458f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d49b2219-6e51-411a-b7c2-e588369ae595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cacee09f-03f7-4ab8-ab0b-376dba4f19cc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,11)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04764663-d817-4cc0-a695-785d4eeba73f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-container--main",
+      "targets": [
+        ["css=.acl-container--main", "css:finder"],
+        ["xpath=//hdca-cart-micro/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85a16f0f-ce53-49a1-927e-df5a908dd4ae",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-color--success > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-color--success > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": "$32.00"
+    }]
+  }, {
+    "id": "d479690b-c8b5-4a22-9224-bbef0ad38075",
+    "name": "Discount_And_Regular_Price",
+    "commands": [{
+      "id": "4ee29226-108b-4f8e-864a-2873ff0e65b4",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28600bbc-5b55-4a8c-a15f-bbeef7c66c50",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c4397bf-3a57-491b-9142-ca36937eab04",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='ValueCentreMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9130f9f-2f86-4f56-a9f1-50e5070c807c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondarybanner:nth-child(10) .hdca-button2__label",
+      "targets": [
+        ["css=.secondarybanner:nth-child(10) .hdca-button2__label", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82e3617a-c8de-40d2-b5b2-e6378383b121",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,582)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4c14e82-03cf-4116-b24b-0f405a39256c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f230fa35-111e-4be5-bf7d-0b6c7829afd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--size--medium:nth-child(1) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--size--medium:nth-child(1) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue Shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a5d996-0b32-4706-b565-05671f5d3056",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3feff8fa-8b14-446b-aef4-accb5d2911a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Exterior Door",
+      "targets": [
+        ["linkText=Exterior Door", "linkText"],
+        ["css=.aem-GridColumn--small--none:nth-child(3) > .hdca-button-container > .hdca-button2", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.homedepot.ca/search?q=exterior%20door#!q=exterior%20door&intid=HP_S2_240314_ALL_ExteriorDoor_EN_NA')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Exterior Door')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a10f7f8c-cc04-4709-991b-6bf0f4070f72",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Exterior Door",
+      "targets": [
+        ["linkText=Exterior Door", "linkText"],
+        ["css=.aem-GridColumn--small--none:nth-child(3) > .hdca-button-container > .hdca-button2", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.homedepot.ca/search?q=exterior%20door#!q=exterior%20door&intid=HP_S2_240314_ALL_ExteriorDoor_EN_NA')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Exterior Door')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8138f4-8b6c-416d-9505-36913aa2584f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aem-GridColumn--default--none:nth-child(2) > .hdca-button-container .hdca-button2__label",
+      "targets": [
+        ["css=.aem-GridColumn--default--none:nth-child(2) > .hdca-button-container .hdca-button2__label", "css:finder"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Plywood')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21b86d4-8d67-4ef7-a71f-9cc28112d7bb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91eade2c-a110-4227-9c4f-b3edb61d6663",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,539)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f89c37c2-5ef9-4927-b30e-dbeaf4f40af4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom > .acl-button",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom > .acl-button", "css:finder"],
+        ["xpath=//section[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abe898bf-02ad-46e1-877e-517c171a66c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dc3f53d-46ca-49d3-a95a-be0751cd8ae0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba74b183-969f-4b43-83c2-62d454c5f961",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-display--flex:nth-child(6)",
+      "targets": [
+        ["css=.acl-display--flex:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e6babe-dccf-4021-9b1b-52ab59bcb99c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-color--success > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-color--success > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[6]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": "$32.00"
+    }]
+  }, {
+    "id": "7d78fee0-79d8-4b62-bcc2-d85e5fc4982e",
+    "name": "Multiple_Discount",
+    "commands": [{
+      "id": "9eb98cec-b137-4cf9-aa11-727b2dc50e76",
+      "comment": "",
+      "command": "open",
+      "target": "/cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03f40fb8-ee28-489a-8a8f-3fdddbc037b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed4ddbd9-cbe6-4541-9c5a-23872840587c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='ValueCentreMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ccd0ff2-9775-42a9-9d52-ec165be5fb38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondarybanner:nth-child(10) .hdca-button2__label",
+      "targets": [
+        ["css=.secondarybanner:nth-child(10) .hdca-button2__label", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d9ce506-4b15-497b-a9a5-fe2de0aedca1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,538)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e48f0f8f-5819-4e9b-8bc5-0abd45dbec81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc865aee-d442-4352-9540-ae4e0d013fd9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2337d04-d673-4854-b9a4-9cbe71c32c0e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(1) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b617b77-182c-4178-adb6-7f71ea7417bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--size--medium:nth-child(1) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--size--medium:nth-child(1) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue Shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff2f4a1c-2741-4383-b3e3-f737f8fcc926",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-product-card:nth-child(2) > .acl-product-card__cta--bottom .acl-button__label",
+      "targets": [
+        ["css=.acl-product-card:nth-child(2) > .acl-product-card__cta--bottom .acl-button__label", "css:finder"],
+        ["xpath=//article[2]/section[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20aade04-a298-40d5-b2fc-00c70d0b9b5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "556a5e7d-858d-4989-b623-911e3ce2cb43",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5541d612-a43b-492d-97f2-0120ea67c0b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-container--main",
+      "targets": [
+        ["css=.acl-container--main", "css:finder"],
+        ["xpath=//hdca-cart-micro/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2899fc8-b8f7-4dbd-9bd3-483e0652fd22",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-color--success > .ng-star-inserted",
+      "targets": [
+        ["css=.acl-color--success > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='orderSummaryContainer']/order-summary/div[2]/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": "$103.00"
+    }]
+  }, {
+    "id": "f3e1351e-7357-4485-931d-53c19b228ecc",
+    "name": "test",
+    "commands": []
+  }, {
+    "id": "453bad87-4731-4d1e-a786-61800596081a",
+    "name": "Change_Store_Location",
+    "commands": [{
+      "id": "ae7d8b15-5a5e-42bc-b268-9b72705a8b42",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cc2a747-7abc-4a82-a9c3-cab3077fe109",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc88d8a3-3095-42c4-b573-f9d420eb14ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Calgary Northeast (Marlborough)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb2ddde4-df43-4431-849b-3bf7f097993b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e887e2f-e3ba-41e6-b552-af1eec3a3f37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc9cb8b0-efe7-4d6c-9d75-d6fb942660ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu > .acl-store-hours-menu",
+      "targets": [
+        ["css=.acl-store-hours-menu > .acl-store-hours-menu", "css:finder"],
+        ["xpath=//acl-store-hours-menu/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bcf3c65-a914-422b-b92b-333bd481e798",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Calgary North Hill')]", "xpath:innerText"]
+      ],
+      "value": "Calgary North Hill"
+    }]
+  }, {
+    "id": "b5bf165a-7a05-495e-9be5-4d9216fd0794",
+    "name": "English_To_French",
+    "commands": [{
+      "id": "ce44ae7d-a9d6-49c7-8c2b-69e56fb64b95",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9ecc134-501b-40e8-a863-7f9ee3768230",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bb66354-5883-4dba-b0c3-0ddf0c9dd6c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Français",
+      "targets": [
+        ["linkText=Français", "linkText"],
+        ["css=sc-lang-toggle-micro .acl-text-size--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Français')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.homedepot.ca/fr/accueil.html')]", "xpath:href"],
+        ["xpath=//sc-lang-toggle-micro/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Français')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67745327-d9f4-42dd-88b2-2c3ad2d26200",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lg\\3A acl-display--flex",
+      "targets": [
+        ["css=.lg\\3A acl-display--flex", "css:finder"],
+        ["xpath=//header/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37fcb050-44b8-4c9c-960e-bfdd710ed943",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Magasiner par rayon')]", "xpath:innerText"]
+      ],
+      "value": "Magasiner par rayon"
+    }]
+  }, {
+    "id": "65859c5a-06ca-46c8-adc5-5e1623b3e54f",
+    "name": "French_To_English",
+    "commands": [{
+      "id": "bfa058e6-8824-4e89-a7d2-5a4c41bef5bc",
+      "comment": "",
+      "command": "open",
+      "target": "/fr/accueil.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a9ec322-5c09-4dac-afc9-d7bbdc869b29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4760a1aa-1ce1-4847-8684-0551bedd0e96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-pb--small",
+      "targets": [
+        ["css=.acl-pb--small", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05ba195f-64ef-4d50-8152-dd1fed5af37c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=English",
+      "targets": [
+        ["linkText=English", "linkText"],
+        ["css=sc-lang-toggle-micro .acl-text-size--small", "css:finder"],
+        ["xpath=//a[contains(text(),'English')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.homedepot.ca/en/home.html')]", "xpath:href"],
+        ["xpath=//sc-lang-toggle-micro/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6092a5f-b524-47f9-8ffd-9bf0716a4b65",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0fd04f4-ba31-4fc2-aa8b-6621de268a0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lg\\3A acl-display--flex",
+      "targets": [
+        ["css=.lg\\3A acl-display--flex", "css:finder"],
+        ["xpath=//header/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edf40f65-9f83-4085-b11b-ba84acaa6f4d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b58b42-8225-433b-85c0-8e0a804ac5b4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.acl-main-nav-item__icon-wrapper",
+      "targets": [
+        ["css=.acl-main-nav-item__icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "305d4f72-567b-4e3e-9821-7eeaf8e095c9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#ShopMainNavNode > .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ShopMainNavNode > .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//a[@id='ShopMainNavNode']/span", "xpath:idRelative"],
+        ["xpath=//acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": "Shop by Department"
+    }]
+  }, {
+    "id": "d0f4ae43-0f12-4cc0-8c88-88516cbe0a78",
+    "name": "Vinyl_Flooring_Weekly_Offer",
+    "commands": [{
+      "id": "d583167d-13cd-4f08-9873-c7db6ac538c7",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22e20020-b6f0-48ab-a5d1-f98f08ac1d6d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x975",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61c26aa0-78b2-44f2-8f15-358cc8947ec6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navnode_000003UXContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#navnode_000003UXContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='navnode_000003UXContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Weekly Flyer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44d69718-1779-4985-bdc8-d5d3df3ee5b7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "5003b429-9fdc-41c3-afe1-92fd57f26b77",
+      "comment": "",
+      "command": "click",
+      "target": "css=sfml-flyer-image:nth-child(1) a:nth-child(7)",
+      "targets": [
+        ["css=sfml-flyer-image:nth-child(1) a:nth-child(7)", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8195",
+      "windowTimeout": 2000
+    }, {
+      "id": "34c071fc-c112-405c-827a-c6afe144528a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8195}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac51dadd-48e4-4930-b431-319aea69d769",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.acl-container--main",
+      "targets": [
+        ["css=.acl-container--main", "css:finder"],
+        ["xpath=//null-search/div", "xpath:position"]
+      ],
+      "value": "Home\\nError 404\\nOops!\\nWe’re sorry, but the page you requested was not found.\\nError Code: 404\\nSHOP BY DEPARTMENT\\nBuilding Materials & Plumbing\\nTools\\nAppliances\\nOutdoors\\nBath\\nLighting & Ceiling Fans\\nFloors & Area Rugs\\nStorage & Organization\\nHome Décor & Furniture\\nKitchen\\nElectrical\\nSmart Home"
+    }, {
+      "id": "b6f485ce-d322-4085-8bd2-6ed5e9d227fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-mt--small",
+      "targets": [
+        ["css=.acl-mt--small", "css:finder"],
+        ["xpath=//null-search/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c6d0c23-2c6d-47b7-9d05-f1c65ad02c60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-mt--small",
+      "targets": [
+        ["css=.acl-mt--small", "css:finder"],
+        ["xpath=//null-search/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a186b00-bc9d-408d-82f2-c0441a54c961",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.acl-mt--small",
+      "targets": [
+        ["css=.acl-mt--small", "css:finder"],
+        ["xpath=//null-search/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7735383a-e9a8-432a-95ba-3932bf56a9f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-mt--small",
+      "targets": [
+        ["css=.acl-mt--small", "css:finder"],
+        ["xpath=//null-search/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74e4e1bc-52d8-40a0-a820-d5e20f6a1c84",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-mt--small",
+      "targets": [
+        ["css=.acl-mt--small", "css:finder"],
+        ["xpath=//null-search/div/div[2]", "xpath:position"]
+      ],
+      "value": "$1.84"
+    }]
+  }, {
+    "id": "91a2574d-9992-4e35-9b5b-4eaaaf3e3f98",
+    "name": "Price_Continuity",
+    "commands": [{
+      "id": "24edda0d-bec2-4518-b573-5d053c49b11c",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93b8de10-283e-47aa-a70a-4be19f0ea7b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0c16386-6bde-4c7f-90b1-fc2034b7b283",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navnode_000003UXContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#navnode_000003UXContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='navnode_000003UXContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Weekly Flyer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8a6c67b-ea37-456d-9cca-961b348c0865",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d7c688f-d2b1-4d6e-ab89-ec1820bc4971",
+      "comment": "",
+      "command": "click",
+      "target": "css=sfml-flyer-image:nth-child(3) button:nth-child(5)",
+      "targets": [
+        ["css=sfml-flyer-image:nth-child(3) button:nth-child(5)", "css:finder"],
+        ["xpath=//sfml-flyer-image[3]/div/button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77270b05-76dd-4ac2-b334-7b137c46eaac",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f06d204f-7f60-4909-ac88-357f3786fd08",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=5",
+      "targets": [
+        ["index=5"]
+      ],
+      "value": ""
+    }, {
+      "id": "876a34a9-52ad-437b-87a6-abd53e1df29f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See More Info",
+      "targets": [
+        ["linkText=See More Info", "linkText"],
+        ["css=.see-more-link", "css:finder"],
+        ["xpath=//a[@href='http://www.homedepot.ca/product/wd-40-original-formula-multi-purpose-lubricant-spray-with-smart-straw-325g/1001684246']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'See More Info')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5443",
+      "windowTimeout": 2000
+    }, {
+      "id": "8a026f35-9991-49ec-8ff6-afb7add72abb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5443}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "914e942d-4a6a-498a-9923-22fd6ec4fad1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-button--size--medium > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--size--medium > .acl-button__label", "css:finder"],
+        ["xpath=//ng-component/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93607c9f-8ed9-44f2-a268-7f5492d77ca7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b3d6d6a-cf26-43b4-8c07-650875647085",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e33af2f-8706-4ce0-9561-75da94339cfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-atc > .hdca-button2__label",
+      "targets": [
+        ["css=#product-atc > .hdca-button2__label", "css:finder"],
+        ["xpath=//button[@id='product-atc']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d1834ac-c389-4266-a384-8f92b179827f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bb8f6e9-8550-40aa-91a2-82ffdce3786c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb67ae4b-fccf-46df-af2b-afe94a71e77c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-border--top > .acl-display--flex",
+      "targets": [
+        ["css=.acl-border--top > .acl-display--flex", "css:finder"],
+        ["xpath=//cart-product-card/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9350ec80-779e-4633-bd6e-d186dedfbc44",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-title:nth-child(1)",
+      "targets": [
+        ["css=.acl-title:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "$8.98"
+    }]
+  }],
+  "suites": [{
+    "id": "3634f93c-a497-4133-9cae-13bd1af02739",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fabbed07-dd33-4e49-9159-fec1bd8c3c56"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}
